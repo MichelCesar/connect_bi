@@ -1257,6 +1257,21 @@ a.image {
     -ms-transform: scale(1.075);
     transform: scale(1.075); }
 
+  
+  #banner .image {
+    overflow: hidden; }
+    #banner .image img {
+      -moz-transition: -moz-transform 2.0s ease;
+      -webkit-transition: -webkit-transform 2.0s ease;
+      -ms-transition: -ms-transform 2.0s ease;
+      transition: transform 2.0s ease; }
+    #banner .image:hover img {
+      -moz-transform: scale(1.075);
+      -webkit-transform: scale(1.075);
+      -ms-transform: scale(1.075);
+      transform: scale(1.075); }
+
+
 /* List */
 ol {
   list-style: decimal;
